@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 2px solid rgba(0,0,0,0.5);
+}
+
+@include media-breakpoint-up(sm) {
+  li {
+    width: 45%;
+    margin: .5rem 2.5%;
+  }
+}
+
+
+@include media-breakpoint-up(md) {
+  li {
+    width: 30%;
+    margin: .5rem calc(10%/6);
+  }
+}
+
+
+@include media-breakpoint-up(lg) {
+  li {
+    width: 22%;
+    margin: .5rem 1.5%;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  li {
+    width: 18%;
+    margin: .5rem 1%;
+  }
+}

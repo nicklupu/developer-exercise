@@ -8,4 +8,4 @@ In this excercise we would like you to build a web component similar to this [sc
 
 Please fork this repository and commit your changes for review.
 
-Amend this Readme in your forked repo and use your commits to outline the component you have created and the decisions that you have made.
+I have used Grunt and Pug to compile my page, the gruntfile reads the JSON and then creates an index page using the data. I also used the SCSS bootstrap 4 template for styling.

@@ -1,0 +1,22 @@
+extends views/layout
+
+
+
+block content
+
+    - var currency = '£'
+
+
+
+    .container-fluid.py-3
+        for layer in data.placements
+           h1= layer.message.toUpperCase()
+           hr
+           .container-fluid
+               ul.list-unstyled.d-flex.flex-row.flex-wrap
+                   each outfit in layer.items
+                       li
+                           a(href=outfit.linkURL)
+                               img.img-fluid(src= outfit.imageURL)
+                           h2= outfit.name.toUpperCase()
+                           p= currency + outfit.price
