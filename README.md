@@ -9,3 +9,8 @@ In this excercise we would like you to build a web component similar to this [sc
 Please fork this repository and commit your changes for review.
 
 I have used Grunt and Pug to compile my page, the gruntfile reads the JSON and then creates an index page using the data. I also used the SCSS bootstrap 4 template for styling.
+
+
+#### Link to sample page
+
+[Warehouse](https://cdn.rawgit.com/nicklupu/developer-exercise/a319d182/code/app/index.html)
